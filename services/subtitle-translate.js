@@ -1,5 +1,6 @@
 // import translate from "translation-google";
 const { Translate } = require("@google-cloud/translate").v2;
+// const serviceAccount = JSON.parse(process.env.NEXT_PUBLIC_SERVICE_ACCOUNT);
 
 // Creates a client
 const translate = new Translate({

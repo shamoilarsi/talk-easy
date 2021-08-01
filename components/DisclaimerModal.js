@@ -17,7 +17,10 @@ const DisclaimerModal = ({ isOpen, onClose }) => {
         <ModalHeader>Disclaimer</ModalHeader>
         <ModalBody>
           <Text>This website is for demo purpose only. Expect bugs!</Text>
-          <Text>Subtitle feature is disabled on the version deployed to Vercel</Text>
+          <Text>
+            Translation feature is disabled on the version deployed to Vercel. Clone the repo and
+            add the necessary keys/files to enable translations
+          </Text>
         </ModalBody>
 
         <ModalFooter>
