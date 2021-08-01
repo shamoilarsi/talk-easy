@@ -1,6 +1,6 @@
 # TalkEasy
 
-> Development env will not work as we have deleted the Firebase project and Cloud translation projects. However, the deployed demo will still work at [https://talk-easy.vercel.app](https://talk-easy.vercel.app)
+> Development env will not work without the necessary files and keys.
 
 > To run it locally, follow the instructions in the _Development_ section
 
@@ -10,7 +10,7 @@
 
 ### Try it yourself
 
-[https://talk-easy.vercel.app](https://talk-easy.vercel.app)
+[https://talkeasy.vercel.app/](https://talkeasy.vercel.app)
 
 ### Why?
 
@@ -47,10 +47,9 @@ NEXT_PUBLIC_STORAGE_BUCKET
 NEXT_PUBLIC_MESSAGING_ID
 NEXT_PUBLIC_APP_ID
 NEXT_PUBLIC_FIREBASE_DB
+NEXT_PUBLIC_FIREBASE_ADMIN (stringified version of the firebase-admin config)
 NEXT_PUBLIC_CLIENT_LOCATION=http://localhost:3000
 ```
-
-Add the `firebase-admin` service account config in the root directory in a file called `firebase-admin-service-account.json`
 
 For realtime subtitles to work, you will need to create a service account on Google Cloud which has access to Cloud Translation API. Create a file called `service-account-key.json` in the root directory
 
