@@ -20,6 +20,7 @@ export const subtitleGoogleTranslate = async (text, from, to) => {
     translations = Array.isArray(translations) ? translations : [translations];
     console.log("Translations:");
     const data = translations[0];
+    // console.log({ data });
     if (data) return data;
     else return "";
   } catch (error) {
